@@ -83,7 +83,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height:800px;
+  min-height:600px;
 /*  background:url('../img/welcome.png');*/
   background-position: 40%;
   text-align:center;
