@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:lightgray;
+  background-color:white;
 }
 
 /* Global */
@@ -79,14 +79,17 @@ header a:hover{
   font-weight:bold;
 }
 
+
+
 /* Showcase */
 #showcase{
-  min-height:400px;
-  background:url('../img/comp1.jpg') no-repeat;
-  background-position: 20%;
+  min-height:800px;
+/*  background:url('../img/welcome.png');*/
+  background-position: 40%;
   text-align:center;
   color:#ffffff;
   background-size: cover;
+  background-color:black;
 }
 
 #showcase h1{
@@ -96,8 +99,36 @@ header a:hover{
 }
 
 #showcase p{
+  font-size:25px;
+}
+
+.logo1 {
+  height: 100%;
+  width: 600px;
+}
+
+
+/* Showcase */
+#showcase1{
+  min-height:400px;
+  background:url('../img/dap.png') no-repeat;
+  background-position: 40%;
+  text-align:center;
+  color:#ffffff;
+  background-size: cover;
+}
+
+#showcase1 h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase1 p{
   font-size:20px;
 }
+
+
 
 /* Newsletter */
 #newsletter{
